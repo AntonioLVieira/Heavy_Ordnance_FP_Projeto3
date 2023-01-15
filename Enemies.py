@@ -16,7 +16,6 @@ path = os.path.dirname(os.path.abspath(filename))                #<--Finds the p
 hit_sfx = pygame.mixer.Sound(path + "/assets/audio/sfx/boat exploding.mp3")
 
 # === Images ===
-barco_placeholder = pygame.image.load(path + "/assets/images/barco.png")
 enemie_img_semi_pequeno = pygame.image.load(path + "/assets/images/barco_semi_pequeno.png")
 enemie_img_pequeno = pygame.image.load(path + "/assets/images/barco_pequeno.png")
 enemie_img_medio = pygame.image.load(path + "/assets/images/barco_medio.png")
